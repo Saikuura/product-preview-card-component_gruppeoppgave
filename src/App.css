@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+  width: fit-content;
+  height: fit-content;
+  max-width: 90vw;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 376px) {
+  section {
+    flex-direction: row;
+    max-width: 576px;
+  }
+}
+
+.content_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+@media (min-width: 376px) {
+  .content_wrapper {
+    width: 50%;
+    gap: 2rem;
+  }
+}
+
+
